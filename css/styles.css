@@ -10,6 +10,38 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ #introduction-h3{
+   margin-top:30px;
+   margin-bottom:15px
+ }
+
+@media screen and (min-width:0px) and (max-width:991px){
+  .youtube{
+    position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden
+  }
+  .youtube iframe, .youtube object, .youtube embed{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+}
+@media screen and (min-width:992px){
+  .youtube{
+    position:relative;padding-bottom:40%;padding-top:30px;height:0;overflow:hidden;
+  }
+  .youtube iframe, .youtube object, .youtube embed{
+    position:absolute;
+    top:0;
+    left:0;
+    width:75%;
+    height:100%;
+    margin-left:12.5%
+  }
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11143,6 +11175,12 @@ header.masthead .masthead-heading {
   border-right-width: 14px;
   border-left-width: 0;
 }
+
+/*산틀 사진 크기 조절*/
+#santle-img{
+  width:100%
+}
+
 .timeline > li .timeline-image {
   position: absolute;
   z-index: 100;
@@ -11182,7 +11220,7 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 .timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
-  margin-top: 0;
+  margin-top: 15px;
   color: inherit;
 }
 .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
@@ -11207,6 +11245,7 @@ header.masthead .masthead-heading {
     padding: 0 20px 20px 30px;
     text-align: right;
   }
+
   .timeline > li .timeline-image {
     left: 50%;
     width: 100px;
@@ -11231,10 +11270,11 @@ header.masthead .masthead-heading {
   .timeline > li .timeline-panel {
     padding: 0 20px 20px;
   }
+
   .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
+    width: 110px;
+    height: 110px;
+    margin-left: -55px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 18px;
@@ -11253,9 +11293,9 @@ header.masthead .masthead-heading {
     padding: 0 20px 20px 100px;
   }
   .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
+    width: 120px;
+    height: 120px;
+    margin-left: -65px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     margin-top: 40px;
