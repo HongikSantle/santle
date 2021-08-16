@@ -52,4 +52,17 @@
         인프런 - Do it 자바 프로그램이 입문 - 2.자바의 핵심
 을 다 듣고 공부하기. (~2021-08-15)   
 
+
+
+> 2021-08-17 회의
+
+  
+다음주부터 스프링 강의를 듣고자 함.
+그전에 관계형 데이터베이스를 공부의 필요성을 느낌.
+따라서   
+
+        인프런 - 성공적인 SQL 인젝션 공격을 위한, SQL 기본 문법
+을 다 듣고 공부하기. (~2021-08-17)   
+
+
 Template source: [Bootstrap](https://github.com/StartBootstrap/startbootstrap-agency.git)
