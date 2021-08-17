@@ -54,7 +54,7 @@
 
 
 
-> 2021-08-17 회의
+> 2021-08-16 회의
 
   
 다음주부터 스프링 강의를 듣고자 함.
@@ -64,5 +64,11 @@
         인프런 - 성공적인 SQL 인젝션 공격을 위한, SQL 기본 문법
 을 다 듣고 공부하기. (~2021-08-17)   
 
+
+
+> 2021-08-17 회의   
+
+        인프런 - 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술
+을 듣고 공부하기. (~2021-08-20) 
 
 Template source: [Bootstrap](https://github.com/StartBootstrap/startbootstrap-agency.git)
